@@ -1,15 +1,15 @@
 name: shell commands
 on: "push"
 
- jobs:
-   run-shell command:
-     runs-on: Ubuntu-latest
-   steps:
-     - name: checkout
-       uses: actions/checkout@v3
-     - name: echo string
-       run: echo "Hello"
-     - name: multiline script
-       run: |
-         node -v
-         pwd
+jobs:
+  run-shell command:
+    runs-on: Ubuntu-latest
+  steps:
+    - name: checkout
+      uses: actions/checkout@v3
+    - name: echo string
+      run: echo "Hello"
+    - name: multiline script
+      run: |
+        node -v
+        pwd
