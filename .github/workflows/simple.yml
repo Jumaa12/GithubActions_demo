@@ -2,7 +2,7 @@ name: shell commands
 on: "push"
 
 jobs:
-  run_shell command:
+  run-shell command:
     runs-on: Ubuntu-latest
     steps:
       - name: checkout
