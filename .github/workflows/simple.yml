@@ -2,8 +2,8 @@ name: shell commands
 on: "push"
 
 jobs:
-  run-shell command:
-    runs-on: Ubuntu-latest
+  run_shell command:
+    runs_on: Ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v3
