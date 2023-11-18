@@ -1,6 +1,6 @@
 name: Terraform
 
-on: "push"]
+on: "push"
 
 env:
   AWS_ACCESS_KEY_ID: ${{secrets.SECRET_KEY}}
