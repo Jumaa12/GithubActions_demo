@@ -16,7 +16,7 @@ provider "aws" {
 
 # Resource Block
 
-resource "aws_ec2_instance" "my first ec2" {
+resource "aws_instance" "my first ec2" {
   ami           = "0fc5d935ebf8bc3bc"
   instance_type = "t2.micro"
   tags = {
