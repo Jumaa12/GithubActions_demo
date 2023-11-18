@@ -14,8 +14,8 @@ jobs:
           node -v
           pwd
 
-  run-windows-commands:
-    runs-on: windows Ubuntu-latest
+  run-window-commands:
+    runs-on: windows-latest
     needs: ["run-shell-command"]
     steps:
       - name : Directory
