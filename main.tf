@@ -9,13 +9,13 @@ terraform {
 
 # Provider Block
 provider "aws" {
- # profile = "default"
-  region  = "us-east-1"
+  # profile = "default"
+  region = "us-east-1"
 }
 
 # Resource Block
 
-resource "aws_instance" "first_ec2" {
+resource "aws_instance" "my_first_ec2" {
   ami           = "0fc5d935ebf8bc3bc"
   instance_type = "t2.micro"
   tags = {
